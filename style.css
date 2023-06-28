@@ -1,0 +1,31 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: rgb(162, 89, 28);
+    font-size: 45px;
+    background-color: rgba(255, 170, 80, 0.47);
+    width: 350px;
+}
+button {
+    font-size: 20px;
+}
+
+button:hover {
+    font-size: 22px !important;
+    background-color: rgb(241, 159, 52);
+    color: rgb(128, 77, 0);
+}
+
+canvas {
+    animation-name: clowninaround;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clowninaround {
+    0% {box-shadow: 1px 1px 38px rgb(255, 140, 0);}
+    50% {box-shadow: 1px 1px 38px rgb(0, 255, 47);}
+    100% {box-shadow: 1px 1px 38px rgb(212, 0, 255);}
+}
